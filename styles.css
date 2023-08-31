@@ -157,6 +157,66 @@
     padding-left: 900px;
 }
 
+/* Fourth part of main styling. CTA area */
+
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.cta-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.cta-button {
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.cta-text {
+    margin-right: 75px;
+}
+
+.cta-main {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cta-sub {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+/* Footer styling */
+.footer {
+    font-size: 12px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
 /* Make links not colourful */
 
 a.nav-link:link
