@@ -4,7 +4,7 @@
     font-family: Arial;
 }
 
-/* Header and navbar styling */
+/* navbar and logo styling */
 
 .header-container {
     display: flex;
@@ -34,7 +34,7 @@
     padding-left: 25px;
 }
 
-/* first part of main content styling */
+/* first part of main content styling. Header area  */
 .main-container {
     display: flex;
     justify-content: space-between;
@@ -86,13 +86,13 @@
     margin-top: 10px;
 }
 
-/* Second part of main styling */
+/* Second part of main styling. Random info area*/
 
 .second-container {
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 100px;
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -104,8 +104,6 @@
     text-align: center;
     padding-bottom: 25px;
 }
-
-/*-------------------------------------*/
 
 .second-image-container {
     display: flex;
@@ -129,6 +127,34 @@
 .second-img-description {
     font-size: 11px;
     color: grey;
+}
+
+/* Third part of main styling. Quote area */
+
+.third-container {
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.quote {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding-right: 500px;
+    padding-left: 500px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+    word-spacing: 2px;
+}
+
+.quote-author {
+    padding-left: 900px;
 }
 
 /* Make links not colourful */
